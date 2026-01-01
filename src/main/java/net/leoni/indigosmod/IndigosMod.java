@@ -46,6 +46,9 @@ public class IndigosMod
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.EMERALD_SWORD);
         }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.EMERALD_PICKAXE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
