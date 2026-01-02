@@ -52,6 +52,9 @@ public class IndigosMod
             event.accept(ModItems.EMERALD_AXE);
             event.accept(ModItems.EMERALD_HOE);
         }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.AMETHYST_INGOT);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
