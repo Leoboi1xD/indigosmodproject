@@ -49,6 +49,8 @@ public class IndigosMod
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.EMERALD_PICKAXE);
             event.accept(ModItems.EMERALD_SHOVEL);
+            event.accept(ModItems.EMERALD_AXE);
+            event.accept(ModItems.EMERALD_HOE);
         }
     }
 
