@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "X#X"
+  ],
+  "result": {
+    "item": "indigosmod:refined_emerald"
+  },
+  "show_notification": true
+}

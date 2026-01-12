@@ -55,6 +55,7 @@ public class IndigosMod
         }
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AMETHYST_INGOT);
+            event.accept(ModItems.REFINED_EMERALD);
         }
     }
 

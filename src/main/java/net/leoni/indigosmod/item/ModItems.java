@@ -25,6 +25,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
             () -> new SwordItem(ModToolTiers.AMETHYST, 3, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> REFINED_EMERALD = ITEMS.register("refined_emerald",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
