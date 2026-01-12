@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "indigosmod:refined_emerald"
+    }
+  },
+  "result": {
+    "item": "indigosmod:refined_emerald_block"
+  }
+}

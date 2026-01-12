@@ -32,6 +32,7 @@ public class IndigosMod
         IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -56,6 +57,9 @@ public class IndigosMod
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AMETHYST_INGOT);
             event.accept(ModItems.REFINED_EMERALD);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.REFINED_EMERALD_BLOCK);
         }
     }
 
