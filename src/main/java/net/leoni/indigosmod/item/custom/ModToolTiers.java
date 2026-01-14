@@ -14,7 +14,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier AMETHYST = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 350, 3f, 2.2F, 11,
+            new ForgeTier(3, 350, 6.2f, 2.2F, 11,
                     ModTags.Blocks.NEEDS_AMETHYST_INGOT_TOOL, () -> Ingredient.of(ModItems.AMETHYST_INGOT.get())),
             new ResourceLocation(IndigosMod.MOD_ID, "amethyst_ingot"), List.of(Tiers.IRON), List.of());
 }
