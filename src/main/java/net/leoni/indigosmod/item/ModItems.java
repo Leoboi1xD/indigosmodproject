@@ -33,6 +33,8 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.AMETHYST, (int) 1.9, -2.7f, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe",
             () -> new AxeItem(ModToolTiers.AMETHYST, 6, -3.2f, new Item.Properties()));
+    public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
+            () -> new HoeItem(ModToolTiers.AMETHYST,(int) -2.9, -0.7f, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

@@ -56,6 +56,7 @@ public class IndigosMod
             event.accept(ModItems.AMETHYST_PICKAXE);
             event.accept(ModItems.AMETHYST_SHOVEL);
             event.accept(ModItems.AMETHYST_AXE);
+            event.accept(ModItems.AMETHYST_HOE);
         }
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AMETHYST_INGOT);
