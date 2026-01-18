@@ -10,7 +10,8 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> NEEDS_AMETHYST_INGOT_TOOL = tag("needs_amethyst_ingot_tool");
+        public static final TagKey<Block> NEEDS_AMETHYST_TOOL = tag("needs_amethyst_tool");
+        public static final TagKey<Block> NEEDS_EMERALD_TOOL = tag("needs_emerald_tool");
 
 
         private static TagKey<Block> tag(String name) {

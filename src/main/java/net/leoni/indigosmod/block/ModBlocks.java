@@ -20,8 +20,6 @@ public class ModBlocks {
 
 
 
-    public static final RegistryObject<Block> REFINED_EMERALD_BLOCK = registerBlock("refined_emerald_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

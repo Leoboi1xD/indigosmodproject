@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "indigosmod:refined_emerald"
+      "item": "minecraft:amethyst_shard"
     }
   },
   "result": {
-    "item": "indigosmod:refined_emerald_block"
+    "item": "minecraft:amethyst_block"
   }
 }

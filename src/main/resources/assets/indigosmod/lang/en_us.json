@@ -4,13 +4,11 @@
   "item.indigosmod.emerald_shovel": "Emerald Shovel",
   "item.indigosmod.emerald_axe": "Emerald Axe",
   "item.indigosmod.emerald_hoe": "Emerald Hoe",
-  "item.indigosmod.amethyst_ingot": "Amethyst Ingot",
   "item.indigosmod.amethyst_sword": "Amethyst Sword",
   "item.indigosmod.refined_emerald": "Refined Emerald",
   "item.indigosmod.amethyst_pickaxe": "Amethyst Pickaxe",
   "item.indigosmod.amethyst_shovel": "Amethyst Shovel",
   "item.indigosmod.amethyst_axe": "Amethyst Axe",
-  "item.indigosmod.amethyst_hoe": "Amethyst Hoe",
+  "item.indigosmod.amethyst_hoe": "Amethyst Hoe"
 
-  "block.indigosmod.refined_emerald_block": "Refined Emerald Block"
 }
