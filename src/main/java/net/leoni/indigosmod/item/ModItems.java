@@ -12,9 +12,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, IndigosMod.MOD_ID);
 
     public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword",
-            () -> new Item(new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.EMERALD,3,-2.4f, new  Item.Properties()));
     public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
-            () -> new Item(new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.EMERALD,1,-2.8f, new  Item.Properties()));
     public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
