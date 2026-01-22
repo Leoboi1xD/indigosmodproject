@@ -16,7 +16,7 @@ public class ModItems {
     public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe",
             () -> new PickaxeItem(ModToolTiers.EMERALD,1,-2.8f, new  Item.Properties()));
     public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel",
-            () -> new Item(new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.EMERALD,1,-3f, new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",

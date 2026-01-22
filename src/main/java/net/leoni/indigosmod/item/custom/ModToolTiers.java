@@ -16,7 +16,7 @@ public class ModToolTiers {
     public static final Tier AMETHYST = TierSortingRegistry.registerTier(
             new ForgeTier(3, 350, 6.0f, 2.2f, 11,
                     ModTags.Blocks.NEEDS_AMETHYST_TOOL, () -> Ingredient.of(Items.AMETHYST)),
-            new ResourceLocation(IndigosMod.MOD_ID, "amethyst_ingot"), List.of(Tiers.IRON), List.of());
+            new ResourceLocation(IndigosMod.MOD_ID, "amethyst_ingot"), List.of(Tiers.STONE), List.of());
     public static final Tier EMERALD = TierSortingRegistry.registerTier(
             new ForgeTier(3,925,7.0f,3.0f,13,
                     ModTags.Blocks.NEEDS_EMERALD_TOOL, () -> Ingredient.of(Items.EMERALD)),
