@@ -20,7 +20,7 @@ public class ModItems {
     public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe",
             () -> new AxeItem(ModToolTiers.EMERALD, 5.5f,-3.1f, new  Item.Properties()));
     public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe",
-            () -> new Item(new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.EMERALD, -2,-1f, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
             () -> new SwordItem(ModToolTiers.AMETHYST, 3, -2.4f, new Item.Properties()));
     public static final RegistryObject<Item> REFINED_EMERALD = ITEMS.register("refined_emerald",
